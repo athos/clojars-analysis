@@ -1,0 +1,4 @@
+[submodule "clojars-rss"]
+	path = clojars-rss
+	url = git@github.com:athos/clojars-rss.git
+	branch = gh-pages
