@@ -51,14 +51,14 @@
         (finally
           (exec "git reset --hard" head))))))
 
-(defn dump-libs [{:keys [repo start end out] :or {out "out.edn"}}]
+(defn libs [{:keys [repo start end out] :or {out "out.edn"}}]
   (with-open [w (io/writer out)]
     (binding [*out* w
               *print-length* nil
               *print-level* nil]
       (pp/pprint (load-logs repo start end)))))
 
-(defn dump-groups [{:keys [in out] :or {out "groups.txt"}}]
+(defn groups [{:keys [in out] :or {out "groups.txt"}}]
   (with-open [r (PushbackReader. (io/reader in))
               w (io/writer out)]
     (binding [*out* w]
