@@ -8,7 +8,7 @@
 
 (def ^:dynamic *cwd* ".")
 
-(defn exec [& cmd-strs]
+(defn- exec [& cmd-strs]
   (let [cmd-str (str/join \space cmd-strs)
         {:keys [out err]} (->> [:dir *cwd*]
                                (concat (str/split cmd-str #" +"))
@@ -17,10 +17,10 @@
       (throw (ex-info err {}))
       out)))
 
-(defn current-commit-sha []
+(defn- current-commit-sha []
   (str/trim-newline (exec "git rev-parse HEAD")))
 
-(defn load-edn [edn-file]
+(defn- load-edn [edn-file]
   (with-open [r (io/reader edn-file)]
     (->> (line-seq r)
          (map edn/read-string)
@@ -29,7 +29,7 @@
                      (update ret name (fnil conj #{}) (:version item))))
                  {}))))
 
-(defn load-logs [repo-path start-date end-date]
+(defn- load-logs [repo-path start-date end-date]
   (binding [*cwd* repo-path]
     (let [head (current-commit-sha)
           commits (->> (exec "git rev-list"
