@@ -1,0 +1,649 @@
+{"com.github.oliyh/martian-re-frame" #{"0.1.18"},
+ "cljsjs/pixi-legacy" #{"6.1.3-0"},
+ "org.typedclojure/typed.cljc.analyzer" #{"1.0.19" "1.0.18"},
+ "org.clojars.wang/hugsql-adapter-clickhouse-jdbc" #{"1.0.1-d"},
+ "girouette/processor" #{"0.0.5"},
+ "org.clojars.quoll/asami" #{"2.1.3" "2.2.1" "2.2.0"},
+ "cider/orchard" #{"0.7.2" "0.7.3"},
+ "funcool/potok" #{"2021.09.20-0"},
+ "org.purefn/kurosawa.nrepl" #{"2.1.15"},
+ "scicloj/metamorph" #{"0.2.2" "0.2.3"},
+ "com.7theta/structor" #{"0.2.2"},
+ "io.logicblocks/salutem.check-fns.http-endpoint"
+ #{"0.1.7-RC4" "0.1.7-RC3" "0.1.7-RC5"},
+ "re-graph/re-graph" #{"0.1.16"},
+ "io.github.erp12/fijit" #{"1.0.8"},
+ "io.github.frenchy64/fully-satisfies"
+ #{"1.7.0" "1.3.9" "1.5.3" "1.1.0" "1.6.0"},
+ "com.timezynk/domain" #{"1.2.1"},
+ "org.clojars.nitishgoyal13/dropwizard-primer" #{"1.3.14-7"},
+ "luposlip/json-schema" #{"0.3.2"},
+ "com.lambdaisland/deja-fu" #{"0.3.33" "0.0.26" "0.0.29"},
+ "io.github.ajchemist/github.clj.alpha" #{"2021.252.17497"},
+ "puppetlabs/clj-parent" #{"4.8.1"},
+ "datalevin/datalevin"
+ #{"0.5.21"
+   "0.5.14"
+   "0.5.16"
+   "0.5.4"
+   "0.5.20"
+   "0.5.23"
+   "0.5.19"
+   "0.5.12"
+   "0.5.17"
+   "0.5.13"
+   "0.5.15"
+   "0.5.8"
+   "0.5.7"
+   "0.5.9"
+   "0.4.44"
+   "0.5.18"
+   "0.5.6"
+   "0.5.5"
+   "0.5.1"
+   "0.5.25"
+   "0.5.11"
+   "0.5.3"
+   "0.5.10"
+   "0.5.22"},
+ "arttuka/reagent-material-ui" #{"5.0.0-0"},
+ "org.purefn/kurosawa.web" #{"2.1.15"},
+ "com.computesoftware/sorted-multiset" #{"0.1.6"},
+ "marclojure/marclojure" #{"1.0.6"},
+ "org.suskalo/glfw-clj" #{"0.1.66"},
+ "org.clojars.bento/http-kit" #{"2.5.3-20210927" "2.5.3-20210921"},
+ "metasoarous/oz" #{"1.6.0-alpha36" "1.6.0-alpha35"},
+ "com.appsflyer/pronto" #{"2.0.8" "2.0.9"},
+ "org.clojars.huahaiy/dtlvnative-linux-amd64"
+ #{"0.4.0"
+   "0.2.0"
+   "0.4.2"
+   "0.3.3"
+   "0.3.4"
+   "0.1.5"
+   "0.1.9"
+   "0.1.10"
+   "0.1.8"
+   "0.3.0"},
+ "stavka/stavka" #{"0.6.0"},
+ "tonos-client/tonos-client" #{"1.23.0" "1.21.4" "1.22.0"},
+ "world.convex/clojurify.clj" #{"0.0.0-alpha2" "0.0.0-alpha1"},
+ "org.typedclojure/typed.clj.spec" #{"1.0.19" "1.0.18"},
+ "binaryage/devtools" #{"1.0.4"},
+ "lambdaisland/kaocha" #{"1.0.902"},
+ "com.lambdaisland/ornament" #{"0.0.7"},
+ "scicloj/tablecloth" #{"6.023"},
+ "grafter/vocabularies" #{"0.3.8"},
+ "org.typedclojure/typed.clj.checker" #{"1.0.18"},
+ "cljsjs/crypto-js" #{"4.1.1-0"},
+ "techascent/tech.ml.dataset.sql" #{"6.000"},
+ "io.logicblocks/salutem.core"
+ #{"0.1.7-RC4"
+   "0.1.3"
+   "0.1.7-RC2"
+   "0.1.4"
+   "0.1.2-RC9"
+   "0.1.7-RC3"
+   "0.1.7-RC5"
+   "0.1.5-RC2"
+   "0.1.2"
+   "0.1.2-RC8"
+   "0.1.6-RC2"
+   "0.1.5-RC3"
+   "0.1.5"
+   "0.1.6"
+   "0.1.4-RC2"},
+ "za.co.simply/simply.core" #{"1.1.99" "1.1.98"},
+ "io.github.adam-james-v/svg-clj" #{"0.0.4"},
+ "play-cljc/lein-template" #{"0.9.4.4"},
+ "glimt/glimt" #{"0.2.0" "0.1.0"},
+ "org.clojars.huahaiy/dtlvnative-windows-amd64"
+ #{"0.2.0" "0.4.1" "0.4.2" "0.3.3" "0.3.4" "0.1.10" "0.3.0"},
+ "stowaway/stowaway" #{"0.1.12" "0.1.13"},
+ "org.clojars.vijaysy/easy-fsm" #{"1.0.0"},
+ "com.tolitius/obiwan"
+ #{"0.1.478" "0.1.476" "0.1.477" "0.1.480" "0.1.475"},
+ "com.lambdaschmiede/freitag" #{"0.1.3" "0.1.1" "0.1.2" "0.1.0"},
+ "dev.glossa/metazoa"
+ #{"0.1.264" "0.1.243" "0.1.253" "0.1.281" "0.1.270"},
+ "exoscale/seql" #{"0.1.28" "0.1.29"},
+ "exoscale/blueprint-openapi" #{"0.2.47"},
+ "io.github.ajchemist/user.apache.maven.alpha"
+ #{"2021.252.1308" "2021.252.6975"},
+ "puppetlabs/comidi" #{"0.3.3"},
+ "org.clojars.brytnispiers/pedestal-component" #{"0.1.0"},
+ "http-kit/http-kit" #{"2.6.0-alpha1"},
+ "world.convex/crypto.clj" #{"0.0.0-alpha1" "0.0.0-alpha0"},
+ "kee-frame/kee-frame" #{"1.2.0"},
+ "io.raven.dropwizard/dropwizard-primer" #{"2.0.17"},
+ "dev.glossa/weave-markdown-plain" #{"0.1.108"},
+ "quip/quip" #{"1.0.15" "1.0.13"},
+ "io.tupelo/pedestal" #{"21.09.07" "21.09.10" "21.09.08" "21.09.08b"},
+ "com.github.ivarref/yoltq"
+ #{"0.2.33" "0.1.2" "0.2.39" "0.1.5" "0.2.37" "0.2.22"},
+ "org.domaindrivenarchitecture/c4k-common-clj" #{"0.4.0"},
+ "cc.artifice/lein-tern" #{"0.8.3"},
+ "dev.nubank/clj-github" #{"0.4.2"},
+ "me.flowthing/enne" #{"1.1.0"},
+ "scicloj/gorilla-notes" #{"0.5.15"},
+ "com.phronemophobic.membrane/skialib-macosx-x86-64"
+ #{"0.9.28-beta" "0.9.29.0-beta"},
+ "com.jakemccrary/test-refresh" #{"0.25.0"},
+ "com.tolitius/wrap" #{"0.1.002"},
+ "cljsjs/chartjs" #{"3.5.1-0"},
+ "io.github.cljsjs/html-to-image" #{"1.9.0-0"},
+ "nedap-lib/lein-template" #{"2.8.1"},
+ "clj-djl/clj-djl" #{"0.1.6"},
+ "com.7theta/via" #{"9.0.0" "8.3.3"},
+ "com.github.oliyh/martian-cljs-http" #{"0.1.18"},
+ "io.github.swirrl/dogstatsd" #{"0.1.33" "0.1.35" "0.1.38" "v0.1.5"},
+ "fumi/fumi" #{"0.3.0"},
+ "com.fulcrologic/fulcro-rad-semantic-ui" #{"1.1.7" "1.1.6" "1.1.8"},
+ "polylith/clj-api" #{"0.2.13-alpha"},
+ "applied-science/js-interop" #{"0.3.1"},
+ "com.github.clojure-lsp/clojure-lsp"
+ #{"2021.09.13-19.32.00"
+   "2021.09.30-12.28.16"
+   "2021.09.13-22.13.28"
+   "2021.09.13-22.25.35"
+   "2021.09.30-15.28.01"},
+ "com.omarpolo/gemtext" #{"0.1.8"},
+ "metosin/jsonista" #{"0.3.4"},
+ "leiningen-core/leiningen-core" #{"2.9.7"},
+ "com.phronemophobic/clj-libffi" #{"1.4" "1.2"},
+ "com.github.oliyh/martian-test" #{"0.1.18"},
+ "utilza/utilza" #{"0.1.116" "0.1.117" "0.1.115" "0.1.114" "0.1.118"},
+ "com.github.mainej/schema-voyager" #{"1.0.197" "2.0.221" "1.1.208"},
+ "aerial.saite/aerial.saite" #{"0.25.19"},
+ "holy-lambda/lein-template" #{"0.5.2" "0.5.0" "0.5.1" "0.5.3"},
+ "scicloj/sklearn-clj" #{"0.3.4"},
+ "com.gfredericks/vcr-clj" #{"0.4.20"},
+ "jdbc-ring-session/jdbc-ring-session" #{"1.4.3" "1.5.0"},
+ "lilactown/helix" #{"0.1.3"},
+ "tolitius/yang" #{"0.1.29"},
+ "district0x/district-server-smart-contracts" #{"1.2.7"},
+ "ua.kasta/i18n" #{"1.0.9"},
+ "hiccup-find/hiccup-find" #{"1.0.1"},
+ "com.lambdaisland/glogi" #{"1.0.136"},
+ "org.typedclojure/pom.typed" #{"1.0.19" "1.0.18"},
+ "cz.holyjak/tmp-ragtime-jdbc-next" #{"1.0.0"},
+ "cljs.java-time/cljs.java-time" #{"0.1.19"},
+ "net.r4s6/test-async" #{"0.2.0" "0.1.0"},
+ "lupapiste/document-search-commons" #{"1.0.0"},
+ "com.alpha-prosoft/edd-core-web"
+ #{"1.76" "1.79" "1.62" "1.81" "1.69" "1.73" "1.78"},
+ "clj-kondo/clj-kondo" #{"2021.09.14"},
+ "takeoff/clj-camel" #{"2.0.1"},
+ "viesti/timbre-json-appender" #{"0.2.4"},
+ "org.clojars.intception/om-dropzone" #{"0.1.12" "0.1.11"},
+ "com.github.m1kal/charbel" #{"0.1.5" "0.1.6"},
+ "io.github.FieryCod/holy-lambda" #{"0.5.0"},
+ "halfling/halfling" #{"1.3.1"},
+ "com.walmartlabs/lacinia-pedestal" #{"1.0"},
+ "com.github.opqdonut/clj-github-actions-example" #{"0.1.2"},
+ "io.github.nextjournal/clerk" #{"0.1.164" "0.1.174" "0.1.176"},
+ "com.dedovic/artlib-core" #{"0.0.3"},
+ "net.totakke/clj-iso3166" #{"0.3.0"},
+ "co.elastic/eui-cljs" #{"37.7.0" "37.6.2"},
+ "com.fluree/db" #{"1.0.0-rc30" "1.0.0-rc28" "1.0.0-rc29"},
+ "com.nomistech/clj-utils" #{"0.17.0"},
+ "protojure/protojure" #{"1.6.2"},
+ "de.otto/tesla-jetty" #{"0.2.10"},
+ "com.lambdaisland/witchcraft" #{"0.5.98" "0.3.90" "0.4.94"},
+ "cjohansen/courier" #{"2021.09.17"},
+ "com.awayfrompeople/cljs-audio"
+ #{"0.1.3"
+   "0.2.1"
+   "0.1.4"
+   "0.2.2"
+   "2.1.0"
+   "0.1.2"
+   "0.2.4"
+   "0.1.5"
+   "0.1.6"
+   "1.0.0"
+   "0.3.0"
+   "0.2.3"},
+ "district0x.re-frame/web3-fx" #{"1.0.6"},
+ "fork/fork" #{"2.4.2"},
+ "com.exoscale/antlr-cel" #{"0.1.1"},
+ "com.walmartlabs/lacinia"
+ #{"0.39-alpha-11" "1.0" "1.1-alpha-1" "0.39-alpha-10"},
+ "com.teamgantt/binlog-tailer" #{"0.2.0"},
+ "com.phronemophobic/membrane" #{"0.9.29.0-beta"},
+ "org.clojars.nitishgoyal13/bigqueue" #{"0.7.3"},
+ "scicloj/scicloj.ml.smile" #{"5.07" "6.0.0"},
+ "clj-py-r-template/clj-template" #{"1.4.0" "1.3.0"},
+ "org.clojars.askonomm/ruuter"
+ #{"1.2.2" "1.0.1" "1.1.0" "1.2.1" "1.0.0"},
+ "clj-commons/fs" #{"1.6.309"},
+ "exoscale/blueprint-reporter" #{"0.2.47"},
+ "eamonnsullivan/github-api-lib" #{"0.1.22"},
+ "io.starkiller/starkiller" #{"0.0.3"},
+ "org.typedclojure/typed.clj.lang" #{"1.0.18"},
+ "com.github.johnnyjayjay/ring-discord-auth" #{"1.0.1"},
+ "fr.jeremyschoffen/prose-alpha" #{"32"},
+ "org.clojars.arthurbarroso/re-frame-cljs-http" #{"0.1.0"},
+ "scad-klupe/scad-klupe" #{"0.3.0"},
+ "user.ring/user.ring" #{"2021.251.7880"},
+ "willa/willa" #{"0.2.2"},
+ "org.clj-commons/byte-streams" #{"0.2.8" "0.2.5"},
+ "org.clojars.nek/cljs-audio" #{"0.1.1" "0.1.0"},
+ "com.wsscode/cljc-misc" #{"2021.10.16"},
+ "threatgrid/ring-jwt-middleware" #{"1.1.2" "1.1.1"},
+ "org.clojars.s312569/clj-ocpp" #{"0.1.3"},
+ "clj-push-notifications/clj-push-notifications" #{"1.0.3"},
+ "io.github.FieryCod/holy-lambda-async-retriever" #{"0.5.0"},
+ "com.health-samurai/macrocss" #{"0.1.0"},
+ "oconn/re-frame-routing" #{"0.1.4"},
+ "exoscale/blueprint-core" #{"0.2.47"},
+ "org.clojars.nighcoder/lein-metajar" #{"0.1.3"},
+ "com.7theta/servo" #{"2.2.1" "2.3.0"},
+ "org.clojars.brytnispiers/pedestal" #{"0.1.3" "0.1.2"},
+ "tupelo/tupelo" #{"21.09.07" "21.10.06b"},
+ "org.typedclojure/typed.clj.analyzer" #{"1.0.19" "1.0.18"},
+ "fr.mcorbin/corbihttp" #{"0.17.0"},
+ "clojupyter/clojupyter" #{"0.3.3-alpha2" "0.3.3-alpha"},
+ "com.lambdaisland/classpath" #{"0.0.27"},
+ "metosin/ring-swagger-ui" #{"3.52.3"},
+ "org.typedclojure/typed.cljs.checker" #{"1.0.18"},
+ "com.github.oliyh/martian-vcr" #{"0.1.18"},
+ "org.clojars.eureton/cljmd" #{"0.1.1" "0.1.0"},
+ "org.clojars.clj-clapps/clj-clapps" #{"0.4.12"},
+ "io.randomseed/bankster" #{"1.2.14" "1.2.13"},
+ "com.github.seancorfield/clj-new" #{"1.1.359" "1.2.362"},
+ "threatgrid/ctim" #{"1.1.8"},
+ "cn.leancloud/clojure-hbase" #{"1.2.0-cdh5.7.4-3"},
+ "org.clojars.bento/clj-logging-config" #{"20200115-d474a3c"},
+ "org.clojars.wang/common-service" #{"1.0.76"},
+ "org.suskalo/coffi"
+ #{"0.1.184"
+   "0.1.246"
+   "0.1.241"
+   "0.2.259"
+   "0.1.176"
+   "0.1.205"
+   "0.1.251"
+   "0.1.220"
+   "0.1.192"
+   "0.1.169"},
+ "org.clojars.wang/simple-build" #{"0.0.28" "0.0.12" "0.0.18"},
+ "johncowie/enviable" #{"0.1.6" "0.1.7"},
+ "com.7theta/tailwind" #{"0.3.0"},
+ "keycloak-clojure/keycloak-clojure" #{"1.18.0"},
+ "com.widdindustries/tools.jvm" #{"0.1.5"},
+ "no.nsd/rewriting-history" #{"0.10.445" "0.9.443"},
+ "org.flatland/ordered" #{"1.15.10"},
+ "biiwide/kvdb-aws-dynamodb" #{"0.1.2"},
+ "com.nedap.staffing-solutions/utils.reverse"
+ #{"1.1.0-alpha1" "1.1.0"},
+ "uncomplicate/neanderthal" #{"0.43.3"},
+ "cryogen-core/cryogen-core" #{"0.4.1"},
+ "org.clojars.punit-naik/sqles" #{"1.0.0" "0.1.0"},
+ "puppetlabs/trapperkeeper-webserver-jetty9" #{"4.2.1"},
+ "xyz.thoren/luminary" #{"0.7.2" "0.7.1" "0.7.3"},
+ "refactor-nrepl/refactor-nrepl"
+ #{"3.0.0-alpha4"
+   "3.0.0-alpha10"
+   "3.0.0-alpha1"
+   "3.0.0-alpha11"
+   "3.0.0-alpha12"
+   "3.0.0-alpha13"},
+ "org.rksm/suitable" #{"0.4.1-alpha1" "0.4.1" "0.4.1-alpha2"},
+ "org.typedclojure/typed.lib.core.async" #{"1.0.18"},
+ "org.domaindrivenarchitecture/c4k-common-cljs" #{"0.4.0"},
+ "com.github.ribelo/doxa"
+ #{"0.0.7" "0.0.6" "0.0.9" "0.0.14" "0.0.1" "0.0.12" "0.0.17"},
+ "hodur/lacinia-schema" #{"0.2.0"},
+ "org.danielsz/meyvn-installer" #{"1.3.2" "1.3.3"},
+ "io.logicblocks/salutem.check-fns.data-source"
+ #{"0.1.7-RC4" "0.1.7-RC2" "0.1.7-RC3" "0.1.7-RC5"},
+ "org.purefn/kurosawa.log" #{"2.1.15"},
+ "biiwide/kvdb-api" #{"0.1.2"},
+ "com.github.oliyh/martian-clj-http-lite" #{"0.1.18"},
+ "polylith/clj-poly" #{"0.2.13-alpha"},
+ "org.vuxu/base45" #{"0.1.9"},
+ "com.appsflyer/lein-protodeps" #{"1.0.2"},
+ "lambdaisland/garden-watcher" #{"1.0.45"},
+ "xyz.thoren/julian" #{"1.0.1" "1.0.0" "0.1.0"},
+ "dev.vlaaad/reveal-pro"
+ #{"1.3.243"
+   "1.3.246"
+   "1.3.258"
+   "1.3.254"
+   "1.3.252"
+   "1.3.241"
+   "1.3.248"
+   "1.3.260"
+   "1.3.237"},
+ "world.convex/db.clj" #{"0.0.0-alpha1" "0.0.0-alpha0"},
+ "org.clojars.clj-holmes/clj-holmes"
+ #{"0.1.4" "0.1.1" "0.1.6" "0.1.9" "0.1.10" "0.1.0" "0.1.7"},
+ "dev.glossa/weave-markdown" #{"0.1.12" "0.1.3"},
+ "re-graph.hato/re-graph.hato" #{"0.1.16"},
+ "uberdeps/uberdeps" #{"1.1.0"},
+ "org.clojars.csm/skywalker" #{"0.0.2" "0.0.1"},
+ "org.clojars.huahaiy/dtlvnative-macos-latest-amd64" #{"0.1.5"},
+ "org.dsteurer/doctex" #{"0.1.22"},
+ "leiningen/leiningen" #{"2.9.7"},
+ "slipset/deps-deploy" #{"0.2.0"},
+ "metosin/malli" #{"0.6.2"},
+ "team.sultanov/secret-keeper" #{"0.3.58" "0.3.55" "0.3.61"},
+ "xyz.thoren/equinox" #{"1.1.0" "2.0.0" "2.0.1"},
+ "club.donutpower/system" #{"0.0.91"},
+ "ring/ring-codec" #{"1.2.0"},
+ "com.omarpolo/gemini" #{"0.2.0" "0.1.0"},
+ "rewrite-clj/rewrite-clj" #{"1.0.699-alpha"},
+ "exoscale/blueprint-server" #{"0.2.47"},
+ "com.atomist/cljs-http" #{"0.2.2" "0.2.4"},
+ "com.cleancoders.c3kit/wire" #{"1.0.9"},
+ "io.github.FieryCod/holy-lambda-default-retriever" #{"0.5.0"},
+ "borkdude/deps.clj" #{"0.0.19"},
+ "org.clojars.huahaiy/dtlvnative-macos-amd64"
+ #{"0.4.0" "0.2.0" "0.4.2" "0.3.4" "0.1.9" "0.1.10" "0.1.8"},
+ "org.clojars.lsevero/trivial-kafka-async" #{"0.1.1" "0.1.2"},
+ "nvd-clojure/nvd-clojure" #{"1.7.0" "1.6.0"},
+ "com.exoscale/mania" #{"1.0.0-alpha2"},
+ "spootnik/unilog" #{"0.7.28"},
+ "org.clojars.yjcyxky/tservice" #{"0.6.0"},
+ "com.hortau/lacinia" #{"0.30.1"},
+ "com.phronemophobic.membrane/skialib-linux-x86-64"
+ #{"0.9.28-beta" "0.9.29.0-beta"},
+ "io.starkiller/starkiller-java-client" #{"0.0.1"},
+ "re-graph.clj-http-gniazdo/re-graph.clj-http-gniazdo" #{"0.1.16"},
+ "dev.glossa/weave" #{"0.1.120" "0.1.114" "0.1.107"},
+ "com.github.seancorfield/depstar" #{"2.1.303"},
+ "rum/rum" #{"0.12.7" "0.12.8"},
+ "com.phronemophobic/scify" #{"1.0"},
+ "com.github.seancorfield/next.jdbc" #{"1.2.737" "1.2.731"},
+ "scicloj/scicloj.ml" #{"0.1.0-beta8" "0.1.0-beta6" "0.1.0"},
+ "metosin/loiste" #{"1.1.0"},
+ "org.clojars.pepijndevos/hipflask" #{"0.6.0"},
+ "lambdaisland/tools.namespace" #{"0.1.247"},
+ "world.convex/dapp.clj" #{"0.0.0-alpha0"},
+ "org.clojars.clumsyjedi/clj-component-graph" #{"0.1.2"},
+ "com.livingsocial/lein-dependency-check" #{"1.1.6"},
+ "fiv0/kusonga" #{"0.1.1"},
+ "vlaaad/reveal"
+ #{"1.3.221" "1.3.223" "1.3.217" "1.3.216" "1.3.224" "1.3.219"},
+ "com.fluree/abracad" #{"0.4.18"},
+ "exoscale/blueprint-router" #{"0.2.47"},
+ "cnuernber/dtype-next" #{"8.031" "8.033" "8.032" "8.030" "8.029"},
+ "org.scicloj/tempfiles" #{"1-alpha1" "1-alpha2"},
+ "io.jesi/parent" #{"4.18.0" "4.17.0"},
+ "aerial.hanami/aerial.hanami" #{"0.12.9"},
+ "io.logicblocks/salutem.check-fns"
+ #{"0.1.7-RC4" "0.1.7-RC3" "0.1.7-RC5" "0.1.7-RC1"},
+ "com.fulcrologic/guardrails" #{"1.1.7" "1.1.6"},
+ "nrepl/nrepl" #{"0.9.0-beta3"},
+ "io.github.ajchemist/environment" #{"2021.252.22741"},
+ "org.pariyatti/joplin.xtdb" #{"0.0.4"},
+ "com.exoscale/vinyl" #{"0.1.4" "0.1.5"},
+ "strigui/strigui" #{"0.0.1-alpha13" "0.0.1-alpha15" "0.0.1-alpha14"},
+ "com.fulcrologic/fulcro-rad"
+ #{"1.0.27"
+   "1.0.24"
+   "1.0.19"
+   "1.0.25"
+   "1.0.20"
+   "1.0.21"
+   "1.0.26"
+   "1.0.23"
+   "1.0.22"
+   "1.0.18"
+   "1.0.17"},
+ "lt.jocas/clj-jq" #{"1.1.2" "1.1.1" "1.1.0"},
+ "org.clojars.eureton/squirrel" #{"0.2.0" "0.1.0"},
+ "com.github.oliyh/martian-hato" #{"0.1.18"},
+ "org.cyverse/common-swagger-api" #{"3.2.0" "3.1.2"},
+ "org.clojars.jeff_evans/java-case" #{"1.0" "1.1"},
+ "com.cnuernber/tmdjs" #{"1.000-beta-18"},
+ "cljsjs/pixi" #{"6.1.3-0"},
+ "com.fulcrologic/fulcro" #{"3.5.6" "3.5.5"},
+ "com.flipkart.databuilderframework/databuilderframework" #{"0.5.12"},
+ "exoscale/blueprint" #{"0.2.47"},
+ "nubank/state-flow" #{"5.13.4"},
+ "tech.gojek/ziggurat" #{"4.3.1" "4.5.0" "4.4.0"},
+ "com.wsscode/pathom-viz-connector" #{"2021.10.16"},
+ "world.convex/gen.clj" #{"0.0.0-alpha0"},
+ "ashikasoft/webstack" #{"0.1.6"},
+ "threatgrid/ductile" #{"0.4.2"},
+ "crypto-equality/crypto-equality" #{"1.0.1"},
+ "com.rpl/defexception" #{"0.2.4" "0.2.3"},
+ "cider/cider-nrepl" #{"0.27.2" "0.27.1" "0.27.0"},
+ "org.akvo.flow/akvo-flow"
+ #{"20210921-141221.f9a09660"
+   "20210924-114815.c9f3fc38"
+   "20211014-082551.dbfb1cbc"
+   "20211012-065455.d45994cc"
+   "20210927-103311.f010558a"
+   "20211011-125002.64b97927"
+   "20211013-044610.75fb5d1a"
+   "20210927-155054.5d48edea"
+   "20211011-111534.1738cfb7"
+   "20210927-175419.bd252ec2"
+   "20211012-075714.07d241f8"
+   "20210924-170429.7c6fff9b"
+   "20211005-125604.1f8c9918"
+   "20210921-121806.6021255d"
+   "20211012-082009.c0f32b2c"
+   "20211018-123624.eab0ed94"
+   "20211013-140913.dada2295"
+   "20211001-125828.cf7f27fe"
+   "20210913-150140.bba45d6c"
+   "20210927-131717.5bef1a7b"
+   "20211014-120655.8712b4e8"
+   "20211001-131528.12bc54f9"
+   "20211005-142815.ef890515"
+   "20211008-075611.dc06ee97"
+   "20211013-065828.5400673c"
+   "20210927-192718.0cf577c2"
+   "20211006-110518.d7518391"
+   "20211001-152040.786f83a3"
+   "20211001-145101.adeffc39"
+   "20211014-123536.17683137"
+   "20211012-131537.b607d8e2"
+   "20210921-130208.f9a09660"
+   "20210921-111033.2ff820bf"
+   "20210910-134838.a324277a"
+   "20211011-050445.18fb9f6a"
+   "20211011-063821.3bc84050"
+   "20211014-043158.3217bd39"
+   "20211004-141635.de6394f6"
+   "20211018-063200.ca335a50"
+   "20210929-093604.bde8a4cf"
+   "20211012-060328.84a6b5e9"
+   "20211011-083101.9cbdbcd8"
+   "20211009-051109.dc06ee97"},
+ "scicloj/metamorph.ml"
+ #{"0.4.0" "0.3.0-beta6" "0.3.0-beta8" "0.3.0-beta7"},
+ "com.alpha-prosoft/edd-core-lazy" #{"1.79" "1.81"},
+ "dda/dda-k8s-crate" #{"1.2.0"},
+ "babashka/fs" #{"0.1.0"},
+ "toyokumo/ring-middleware-csp" #{"0.2.1"},
+ "org.typedclojure/typed.clj.runtime" #{"1.0.19" "1.0.18"},
+ "org.clojars.jansuran03/tornado"
+ #{"0.1.3"
+   "0.2.1"
+   "0.1.4"
+   "0.2.2"
+   "0.2.0"
+   "0.1.2"
+   "0.1.5"
+   "0.1.6"
+   "0.1.8"
+   "0.1.0"
+   "0.1.7"
+   "0.2.3"},
+ "org.clojars.primenums/lein-template.clj-app" #{"0.1.0"},
+ "io.github.cljsjs/indenticon-js" #{"2.3.3-0"},
+ "jimpil/chime" #{"1.0.6"},
+ "tick/tick" #{"0.5.0-RC3" "0.5.0-RC2"},
+ "com.github.cache/cache" #{"1.0.5"},
+ "com.kiranshila/cybermonday" #{"0.3.136"},
+ "tongue/tongue" #{"0.4.0" "0.4.2"},
+ "com.github.oliyh/martian" #{"0.1.18"},
+ "org.clojars.csm/core.nio" #{"0.0.1"},
+ "cc.qbits/spandex" #{"0.7.9" "0.7.10"},
+ "cljc.java-time/cljc.java-time" #{"0.1.17"},
+ "dmote-keycap/dmote-keycap" #{"0.7.0" "0.6.0"},
+ "thheller/shadow-cljs" #{"2.15.10" "2.15.12" "2.15.11"},
+ "cryogen/lein-template" #{"0.6.5" "0.6.4" "0.6.6"},
+ "world.convex/net.clj"
+ #{"0.0.0-alpha2" "0.0.0-alpha1" "0.0.0-alpha0"},
+ "lein-nvd/lein-nvd" #{"1.7.0" "1.6.0"},
+ "paravim/paravim" #{"0.18.5"},
+ "oconn/re-frame-request" #{"0.1.6"},
+ "com.phronemophobic/clj-libbffi" #{"1.1"},
+ "scicloj/notespace"
+ #{"4-alpha-3" "4-alpha-1" "4-alpha-2" "4-alpha-4"},
+ "org.clojars.jansuran03/lein-tornado"
+ #{"0.1.3" "0.1.4" "0.1.1" "0.1.2" "0.1.5" "0.1.6" "0.1.0" "0.1.7"},
+ "ntestoc3/netlib" #{"0.3.6"},
+ "girouette/girouette" #{"0.0.5"},
+ "happygapi/happygapi" #{"0.4.8"},
+ "net.clojars.john/injest"
+ #{"0.1.0-alpha.12"
+   "0.1.0-alpha.18"
+   "0.1.0-alpha.11"
+   "0.1.0-alpha.20"
+   "0.1.0-alpha.16"
+   "0.1.0-alpha.10"
+   "0.1.0-alpha.13"
+   "0.1.0-alpha.14"
+   "0.1.0-alpha.19"
+   "0.1.0-alpha.22"
+   "0.1.0-alpha.17"
+   "0.1.0-alpha.15"},
+ "antq/antq" #{"1.0.1" "1.1.0" "1.0.2"},
+ "clj-cctray/clj-cctray" #{"2.1.1"},
+ "org.clojars.alai57/andrewslai" #{"0.0.44" "0.0.46"},
+ "ovotech/ring-jwt" #{"2.3.0"},
+ "org.clojars.s312569/myco"
+ #{"0.6.5" "0.6.2" "0.6.3" "0.5.7" "0.5.9" "0.6.1"},
+ "io.github.ajchemist/user.ring" #{"2021.252.19860"},
+ "io.github.fsm/fsm" #{"0.0.2-1" "1.0.0"},
+ "org.typedclojure/typed.cljs.analyzer" #{"1.0.19" "1.0.18"},
+ "net.clojars.roterski/fulcro-rad-xtdb"
+ #{"0.0.1-alpha-5" "0.0.1-alpha-6"},
+ "scad-tarmi/scad-tarmi" #{"0.7.0" "0.8.0"},
+ "com.jakemccrary/lein-test-refresh" #{"0.25.0"},
+ "com.widdindustries/js-literal" #{"0.1.1"},
+ "zero.one/fxl" #{"0.0.7"},
+ "io.github.erdos/stencil-core" #{"0.3.27" "0.3.28" "0.3.25"},
+ "komcrad-utils/komcrad-utils" #{"0.12.1"},
+ "org.clojars.arohner/shadow-cljs"
+ #{"2.15.10-griffin-3" "2.15.10-griffin-5" "2.15.10-griffin-4"},
+ "org.clojars.huahaiy/datalevin-native"
+ #{"0.5.21"
+   "0.5.14"
+   "0.5.16"
+   "0.5.20"
+   "0.5.23"
+   "0.5.19"
+   "0.5.12"
+   "0.5.17"
+   "0.5.13"
+   "0.5.15"
+   "0.5.9"
+   "0.5.18"
+   "0.5.25"
+   "0.5.11"
+   "0.5.10"
+   "0.5.22"},
+ "cljsjs/jspdf" #{"2.4.0-0"},
+ "dv/tick-util" #{"2021-09-20.0.0"},
+ "org.purefn/kurosawa" #{"2.1.15"},
+ "edenferreira/grasp" #{"0.10.0"},
+ "org.scicloj/kindly" #{"1-alpha1" "1-alpha2"},
+ "com.github.oliyh/martian-httpkit" #{"0.1.18"},
+ "babashka/babashka" #{"0.6.2"},
+ "org.clj-commons/digest" #{"1.4.95" "1.4.100" "1.4.10"},
+ "org.clojars.awayfrompeople/cljs-audio" #{"0.1.0"},
+ "luminus/lein-template" #{"4.19" "4.18"},
+ "cc.qbits/auspex" #{"1.0.0-alpha8"},
+ "cljfx/cljfx" #{"1.7.16" "1.7.15"},
+ "com.lambdaisland/dom-types" #{"0.4.34" "0.0.26"},
+ "unixsocket-http/unixsocket-http" #{"1.0.10"},
+ "djblue/portal" #{"0.15.0" "0.16.1" "0.16.0" "0.16.2" "0.15.1"},
+ "borkdude/edamame" #{"0.0.12"},
+ "com.github.dgknght/app-lib"
+ #{"0.1.23" "0.1.20" "0.1.24" "0.1.21" "0.1.22"},
+ "com.luposlip/nd-db" #{"0.6.2" "0.6.1"},
+ "com.github.clojure-lsp/lein-clojure-lsp"
+ #{"1.0.7" "1.0.4" "1.0.6" "1.0.3" "1.0.5" "1.0.5-fix-clojure"},
+ "world.convex/run.clj" #{"0.0.0-alpha2" "0.0.0-alpha3"},
+ "io.github.cljsjs/react-d3-cloud" #{"1.0.5-0"},
+ "world.convex/cvm.clj"
+ #{"0.0.0-alpha2" "0.0.0-alpha1" "0.0.0-alpha3"},
+ "dehli/serverless" #{"0.3.2"},
+ "com.flexiana/tiny-rbac" #{"0.1.1" "0.1.0"},
+ "org.suskalo/discljord" #{"1.3.0-RC2"},
+ "org.clojars.wang/simple-logging"
+ #{"1.0.21" "0.0.15" "1.0.18" "0.0.10"},
+ "feriados-anbima/feriados-anbima" #{"0.2.6"},
+ "com.phronemophobic.membrane/skialib-macosx-aarch64"
+ #{"0.9.28-beta" "0.9.29.0-beta"},
+ "twosigma/cook-jobclient" #{"0.8.6"},
+ "com.github.clj-easy/graal-build-time"
+ #{"0.1.3" "0.1.4" "0.0.8" "0.1.2" "0.1.0" "0.0.10"},
+ "org.scicloj/tablecloth.time" #{"1.00-alpha-4"},
+ "io.github.ajchemist/telegram.clj"
+ #{"2021.253.30912"
+   "2021.252.10455"
+   "2021.255.44195"
+   "2021.252.19843"
+   "2021.254.23988"
+   "2021.252.12143"},
+ "org.typedclojure/typed.clj.annotator" #{"1.0.18"},
+ "com.nedap.staffing-solutions/speced.def" #{"2.1.0-alpha1" "2.1.0"},
+ "io.raven.dropwizard.auth/dropwizard-jwt" #{"1.3.29-1"},
+ "ont-app/graph-log" #{"0.1.3" "0.1.4"},
+ "org.typedclojure/typed.clj.malli" #{"1.0.18"},
+ "com.github.liquidz/antq" #{"1.0.1" "1.1.0" "1.0.2"},
+ "arttuka/reagent-material-ui-js" #{"5.0.0-0"},
+ "ivarref/recurring-cup" #{"0.6.74" "0.6.72"},
+ "ua.kasta/saturn" #{"1.0.2"},
+ "com.brunobonacci/rdt" #{"0.2.0"},
+ "lambdaisland/uri" #{"1.10.79"},
+ "org.clojars.roklenarcic/paginator"
+ #{"0.2.1" "0.2.2" "0.2.0" "0.2.4" "0.2.5" "0.1.0"},
+ "lambdaisland/regal" #{"0.0.143"},
+ "org.cyverse/mescal" #{"3.1.10"},
+ "open-company/lib"
+ #{"0.20.1-alpha1" "0.20.1-alpha2" "0.20.1-alpha" "0.20.1-alpha3"},
+ "org.purefn/kurosawa.core" #{"2.1.15"},
+ "exoscale/blueprint-handler" #{"0.2.47"},
+ "com.fulcrologic/datomic-cloud-backup" #{"0.0.19" "0.0.16" "0.0.18"},
+ "formatting-stack/formatting-stack" #{"4.4.1" "4.4.0"},
+ "techascent/tech.ml.dataset"
+ #{"6.021" "6.020" "6.023" "6.022" "6.024"},
+ "net.clojars.escherize/memory-whole" #{"0.1.4" "0.1.5"},
+ "ont-app/sparql-endpoint" #{"0.1.3"},
+ "miikka/clj-branca" #{"0.1.2"},
+ "io.github.skinkade/uniformity" #{"0.2.1" "0.2.2" "0.2.0" "0.3.0"},
+ "com.atomist/api-cljs"
+ #{"0.5.100"
+   "0.5.101"
+   "0.5.95"
+   "0.5.104"
+   "0.5.99"
+   "0.5.103"
+   "0.5.98"
+   "0.5.94"
+   "0.5.97"
+   "0.5.102"
+   "0.5.93"
+   "0.5.96"},
+ "org.clojars.pkoerner/lisb" #{"0.0.1"},
+ "org.clojars.clj-holmes/shape-shifter" #{"0.1.3" "0.1.1" "0.1.2"},
+ "com.fulcrologic/fulcro-rad-datomic" #{"1.0.11" "1.0.12"},
+ "org.typedclojure/typed.lib.clojure" #{"1.0.19" "1.0.18"},
+ "io.rdgd/discord-bot" #{"0.1.11" "0.1.6" "0.1.9" "0.1.8" "0.1.7"},
+ "com.flexiana/framework" #{"0.2.4"},
+ "clj-mecab/clj-mecab" #{"1.0.102"},
+ "exoscale/blueprint-client" #{"0.2.47"},
+ "io.sentry/sentry-clj" #{"5.2.157" "5.2.156" "5.2.158"},
+ "daaku/schema" #{"2.0.2"},
+ "com.github.oliyh/martian-clj-http" #{"0.1.18"},
+ "org.purefn/kurosawa.aws" #{"2.1.15"}}
