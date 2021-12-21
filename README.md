@@ -1,71 +1,42 @@
 # clojars-analysis
 
-FIXME: my new application.
-
-## Installation
-
-Download from https://github.com/athos/clojars-analysis
-
 ## Usage
 
-FIXME: explanation
+### Dump
 
-Run the project directly, via `:exec-fn`:
+To collect and dump the release information during a specific period, run:
 
-    $ clojure -X:run-x
-    Hello, Clojure!
+```sh
+clojure -X:dump libs :repo '"clojars-rss"' :start '"2021-04-18"' :end '"2021-05-18"' :out '"data/202104.edn"'
+```
 
-Run the project, overriding the name to be greeted:
+To extract all the group information for the collected releases, run:
 
-    $ clojure -X:run-x :name '"Someone"'
-    Hello, Someone!
+```sh
+clojure -X:dump groups :in '"data/202104.edn"' :out '"data/202104_groups.txt"'
+```
 
-Run the project directly, via `:main-opts` (`-m athos.clojars-analysis`):
+### Annotation
 
-    $ clojure -M:run-m
-    Hello, World!
+To annotate each extracted group with whether it is a verified group or not, run:
 
-Run the project, overriding the name to be greeted:
+```sh
+clojure -X:annot annotate :in "data/202104_groups.txt" :out "data/202104_groups.edn"
+```
 
-    $ clojure -M:run-m Via-Main
-    Hello, Via-Main!
+### Statistics
 
-Run the project's tests (they'll fail until you edit them):
+To output the resulting JSON file for the group stats, run:
 
-    $ clojure -M:test:runner
+```sh
+clojure -X:stats groups
+```
 
-Build an uberjar:
+To output the treemap result, run:
 
-    $ clojure -X:uberjar
-
-This will update the generated `pom.xml` file to keep the dependencies synchronized with
-your `deps.edn` file. You can update the version (and SCM tag) information in the `pom.xml` using the
-`:version` argument:
-
-    $ clojure -X:uberjar :version '"1.2.3"'
-
-If you don't want the `pom.xml` file in your project, you can remove it, but you will
-also need to remove `:sync-pom true` from the `deps.edn` file (in the `:exec-args` for `depstar`).
-
-Run that uberjar:
-
-    $ java -jar clojars-analysis.jar
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+```sh
+clojure -X:stats tree-map
+```
 
 ## License
 
