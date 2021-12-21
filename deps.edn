@@ -5,4 +5,5 @@
         enlive/enlive {:mvn/version "1.1.6"}}
  :aliases
  {:dump {:ns-default clojars-analysis.dump}
-  :annot {:ns-default clojars-analysis.annotate}}}
+  :annot {:ns-default clojars-analysis.annotate}
+  :stats {:ns-default clojars-analysis.stats}}}
