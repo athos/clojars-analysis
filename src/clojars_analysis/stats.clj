@@ -1,8 +1,8 @@
 (ns clojars-analysis.stats
-  (:require [cheshire.core :as json]
-            [clojure.edn :as edn]
+  (:require [clojure.edn :as edn]
             [clojure.java.io :as io]
-            [clojure.string :as str])
+            [clojure.string :as str]
+            [oz.core :as oz])
   (:import [java.io PushbackReader]))
 
 (def lines
@@ -11,22 +11,21 @@
 
 (def verified-groups (set lines))
 
-(defn- write-chart [out title data]
-  (binding [*out* (if out (io/writer out) *out*)]
-    (-> {:data {:values data}
-         :repeat {:layer ["unverified" "verified"]}
-         :spec
-         {:mark "bar"
-          :encoding
-          {:x {:field "month" :type "ordinal"}
-           :y {:field {:repeat "layer"}
-               :type "quantitative"
-               :title title}
-           :color {:datum {:repeat "layer"} :type "nominal"}
-           :xOffset {:datum {:repeat "layer"}}}}}
-        (json/generate-stream *out* {:pretty true}))))
+(defn- render-bar-chart [title data]
+  (oz/view!
+   {:data {:values data}
+    :repeat {:layer ["unverified" "verified"]}
+    :spec
+    {:mark "bar"
+     :encoding
+     {:x {:field "month" :type "ordinal"}
+      :y {:field {:repeat "layer"}
+          :type "quantitative"
+          :title title}
+      :color {:datum {:repeat "layer"} :type "nominal"}
+      :xOffset {:datum {:repeat "layer"}}}}}))
 
-(defn artifacts [{:keys [out]}]
+(defn libs [_]
   (->> (for [m (range 4 11)
              :let [file (format "data/2021%02d.edn" m)
                    artifacts (with-open [r (PushbackReader. (io/reader file))]
@@ -42,9 +41,9 @@
          {:month m
           :verified verified
           :unverified (- all verified)})
-       (write-chart out "Number of Releases")))
+       (render-bar-chart "Number of Releases")))
 
-(defn groups [{:keys [out]}]
+(defn groups [_]
   (->> (for [m (range 4 11)
              :let [file (format "data/2021%02d_groups.txt" m)
                    groups (with-open [r (io/reader file)]
@@ -53,7 +52,7 @@
          {:month m
           :verified (count verified)
           :unverified (- (count groups) (count verified))})
-       (write-chart out "Number of Groups")))
+       (render-bar-chart "Number of Groups")))
 
 (defn- build-tree [lines]
   (letfn [(walk [path name t]

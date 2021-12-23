@@ -2,7 +2,8 @@
  :deps {org.clojure/clojure {:mvn/version "1.10.3"}
         cheshire/cheshire {:mvn/version "5.10.1"}
         clj-http/clj-http {:mvn/version "3.12.3"}
-        enlive/enlive {:mvn/version "1.1.6"}}
+        enlive/enlive {:mvn/version "1.1.6"}
+        metasoarous/oz {:mvn/version "2.0.0-alpha5"}}
  :aliases
  {:dump {:ns-default clojars-analysis.dump}
   :annot {:ns-default clojars-analysis.annotate}
